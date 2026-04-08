@@ -1,0 +1,9 @@
+# Archivos log
+*.log
+
+# Carpeta temp
+temp/
+
+# Archivos .md y .txt dentro de doc/
+doc/*.md
+doc/*.txt
