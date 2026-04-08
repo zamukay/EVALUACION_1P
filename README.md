@@ -55,14 +55,22 @@ Se ingresó al repositorio original en GitHub y se hizo clic en el
 botón "Fork" ubicado en la esquina superior derecha. Se seleccionó
 la cuenta personal (zamukay) como destino del fork
 
+![Fork en GitHub](images/1.png)
+
 ### ¿Cómo se realizó el clone del fork?
 Se abrió Git Bash y se ejecutó el siguiente comando:
 git clone https://github.com/zamukay/EVALUACION_1P.git
+
+![Fork en GitHub](images/3.png)
+
 
 ### ¿Cómo se verificó que se trabajaba sobre el fork?
 Se ejecutó git remote -v dentro de la carpeta clonada.
 La URL mostrada apuntaba a la cuenta personal (zamukay) y no
 al repositorio del profesor, confirmando que se trabaja sobre el fork.
+![Fork en GitHub](images/2.png)
+
+
 ## Pregunta 2 (1 punto)
 
 **Configurar un archivo `.gitignore` para que ignore:**
