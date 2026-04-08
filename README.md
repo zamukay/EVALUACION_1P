@@ -40,10 +40,29 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+**git clone:** Copia un repositorio remoto completo a tu máquina local.
+Crea una carpeta nueva con todos los archivos y el historial de commits.
 
----
+**fork:** Copia un repositorio ajeno a tu propia cuenta de GitHub.
+Se hace desde la web de GitHub y te permite modificar el proyecto
+sin afectar el original.
 
+**git pull:** Descarga y fusiona los cambios del repositorio remoto
+hacia tu rama local actual. Se usa para mantener tu copia actualizada.
+
+### ¿Cómo se realizó el fork?
+Se ingresó al repositorio original en GitHub y se hizo clic en el
+botón "Fork" ubicado en la esquina superior derecha. Se seleccionó
+la cuenta personal (zamukay) como destino del fork
+
+### ¿Cómo se realizó el clone del fork?
+Se abrió Git Bash y se ejecutó el siguiente comando:
+git clone https://github.com/zamukay/EVALUACION_1P.git
+
+### ¿Cómo se verificó que se trabajaba sobre el fork?
+Se ejecutó git remote -v dentro de la carpeta clonada.
+La URL mostrada apuntaba a la cuenta personal (zamukay) y no
+al repositorio del profesor, confirmando que se trabaja sobre el fork.
 ## Pregunta 2 (1 punto)
 
 **Configurar un archivo `.gitignore` para que ignore:**
