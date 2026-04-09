@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad [Universidad Tecnica de Ambato]  
+## Facultad de [FISEI]  
+### Carrera de [Software]  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Anthony Semblantes  
+**Fecha:** 08-04-2026
 
 ---
 
@@ -137,10 +137,31 @@ Los mismos archivos fuera de doc/ sí aparecen y son rastreados.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
----
+## Comandos utilizados
 
+1. git flow init → Inicializa Git Flow con ramas main y develop
+2. git flow feature start ingresar-encabezado → Crea la rama feature
+3. (edición del encabezado)
+4. git add README.md → Prepara los cambios
+5. git commit → Guarda el progreso
+6. git flow feature finish ingresar-encabezado → Fusiona a develop y elimina la rama
+
+## Descripción del proceso
+Git Flow organiza el trabajo en ramas especializadas. La rama develop
+es la base del desarrollo. Cada nueva funcionalidad se trabaja en una
+rama feature separada, y al terminar se fusiona de vuelta a develop.
+
+## Ventajas de Git Flow
+- Permite trabajar en varias funcionalidades al mismo tiempo sin conflictos
+- Mantiene main siempre estable con código listo para producción
+- Facilita el trabajo en equipo porque cada desarrollador trabaja
+  en su propia rama sin afectar a los demás
+- El historial de commits queda organizado y fácil de entender
+
+![Git Flow init](imagenes/init.png)
+![Git Flow init](imagenes/develop.png)
+![Feature branch](imagenes/flow.png)
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
