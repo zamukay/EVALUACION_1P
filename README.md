@@ -1,6 +1,6 @@
-# Universidad [Universidad Tecnica de Ambato]  
-## Facultad de [FISEI]  
-### Carrera de [Software]  
+Universidad Tecnica de Ambato  
+FISEI  
+Carrera de Software  
 
 **Asignatura:** Manejo y Configuración de Software  
 **Nombre del Estudiante:** Anthony Semblantes  
@@ -109,7 +109,7 @@ Los archivos prueba.md y prueba.txt dentro de doc/ no aparecen
 en git status, confirmando que están siendo ignorados.
 Los mismos archivos fuera de doc/ sí aparecen y son rastreados.
 
-![Git status evidencia](imagenes/evidencia.png)
+![Git status evidencia](images/evidencia.png)
 
 ## Pregunta 3 (2 puntos)
 
@@ -159,9 +159,9 @@ rama feature separada, y al terminar se fusiona de vuelta a develop.
   en su propia rama sin afectar a los demás
 - El historial de commits queda organizado y fácil de entender
 
-![Git Flow init](imagenes/init.png)
-![Git Flow init](imagenes/develop.png)
-![Feature branch](imagenes/flow.png)
+![Git Flow init](images/init.png)
+![Git Flow init](images/develop.png)
+![Feature branch](images/flow.png)
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
