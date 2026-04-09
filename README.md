@@ -198,6 +198,14 @@ control de calidad.
 
 ![Feature branch](images/push.png)
 
+## ¿Por qué es importante revisar un Pull Request?
+Revisar un PR antes de fusionarlo es importante porque permite
+detectar errores de código, verificar que se cumplan los estándares
+del proyecto, evitar conflictos con otras ramas y garantizar que
+los cambios no rompan funcionalidades existentes. Es una práctica
+esencial para mantener la calidad del código en equipo.
+
+
 
 ## Pregunta 5 (2 puntos)
 
@@ -228,9 +236,7 @@ control de calidad.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
----
 
 ## Pregunta 6 (2 puntos)
 
