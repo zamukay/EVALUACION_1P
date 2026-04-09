@@ -188,9 +188,16 @@ rama feature separada, y al terminar se fusiona de vuelta a develop.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
----
+## ¿Qué es un Pull Request?
+Un Pull Request (PR) es una solicitud para fusionar los cambios de una
+rama hacia otra dentro de un repositorio. En un flujo colaborativo,
+permite que otros miembros del equipo revisen el código antes de
+integrarlo a la rama principal, facilitando la comunicación y el
+control de calidad.
+
+![Feature branch](images/push.png)
+
 
 ## Pregunta 5 (2 puntos)
 
