@@ -1,6 +1,6 @@
-# Universidad [Universidad Tecnica de Ambato]  
-## Facultad de [FISEI]  
-### Carrera de [Software]  
+Universidad Tecnica de Ambato  
+FISEI  
+Carrera de Software  
 
 **Asignatura:** Manejo y Configuración de Software  
 **Nombre del Estudiante:** Anthony Semblantes  
@@ -109,7 +109,7 @@ Los archivos prueba.md y prueba.txt dentro de doc/ no aparecen
 en git status, confirmando que están siendo ignorados.
 Los mismos archivos fuera de doc/ sí aparecen y son rastreados.
 
-![Git status evidencia](imagenes/evidencia.png)
+![Git status evidencia](images/evidencia.png)
 
 ## Pregunta 3 (2 puntos)
 
@@ -159,9 +159,9 @@ rama feature separada, y al terminar se fusiona de vuelta a develop.
   en su propia rama sin afectar a los demás
 - El historial de commits queda organizado y fácil de entender
 
-![Git Flow init](imagenes/init.png)
-![Git Flow init](imagenes/develop.png)
-![Feature branch](imagenes/flow.png)
+![Git Flow init](images/init.png)
+![Git Flow init](images/develop.png)
+![Feature branch](images/flow.png)
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
@@ -188,9 +188,36 @@ rama feature separada, y al terminar se fusiona de vuelta a develop.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
----
+## ¿Qué es un Pull Request?
+Un Pull Request (PR) es una solicitud para fusionar los cambios de una
+rama hacia otra dentro de un repositorio. En un flujo colaborativo,
+permite que otros miembros del equipo revisen el código antes de
+integrarlo a la rama principal, facilitando la comunicación y el
+control de calidad.
+
+![Feature branch](images/push.png)
+
+## ¿Por qué es importante revisar un Pull Request?
+Revisar un PR antes de fusionarlo es importante porque permite
+detectar errores de código, verificar que se cumplan los estándares
+del proyecto, evitar conflictos con otras ramas y garantizar que
+los cambios no rompan funcionalidades existentes. Es una práctica
+esencial para mantener la calidad del código en equipo.
+
+## ¿Qué observaciones se realizan en la revisión de un PR?
+Durante la revisión de un Pull Request se suelen verificar:
+- Que el código funcione correctamente y no tenga errores
+- Que siga las convenciones y estándares del equipo
+- Que los commits tengan mensajes claros y descriptivos
+- Que no se incluyan archivos innecesarios
+- Que los cambios estén alineados con el objetivo del PR
+- Que no genere conflictos con otras ramas o funcionalidades
+
+![PR creado](images/pull.png)
+![Comentarios en PR](images/comentario.png)
+![Commits en PR](images/commit.png)
+
 
 ## Pregunta 5 (2 puntos)
 
@@ -221,9 +248,7 @@ rama feature separada, y al terminar se fusiona de vuelta a develop.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
----
 
 ## Pregunta 6 (2 puntos)
 
