@@ -205,6 +205,18 @@ del proyecto, evitar conflictos con otras ramas y garantizar que
 los cambios no rompan funcionalidades existentes. Es una práctica
 esencial para mantener la calidad del código en equipo.
 
+## ¿Qué observaciones se realizan en la revisión de un PR?
+Durante la revisión de un Pull Request se suelen verificar:
+- Que el código funcione correctamente y no tenga errores
+- Que siga las convenciones y estándares del equipo
+- Que los commits tengan mensajes claros y descriptivos
+- Que no se incluyan archivos innecesarios
+- Que los cambios estén alineados con el objetivo del PR
+- Que no genere conflictos con otras ramas o funcionalidades
+
+![PR creado](images/pull.png)
+![Comentarios en PR](images/comentario.png)
+![Commits en PR](images/commit.png)
 
 
 ## Pregunta 5 (2 puntos)
