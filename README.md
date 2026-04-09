@@ -90,9 +90,26 @@ al repositorio del profesor, confirmando que se trabaja sobre el fork.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
----
+## ¿Qué es el .gitignore?
+El archivo .gitignore le indica a Git qué archivos o carpetas debe
+ignorar y no rastrear. Es útil para excluir archivos temporales,
+logs, o cualquier archivo que no deba subirse al repositorio.
+
+![Git status evidencia](images/ignore.png)
+
+## Reglas configuradas
+- *.log → ignora todos los archivos con extensión .log
+- temp/ → ignora toda la carpeta temp/
+- doc/*.md y doc/*.txt → ignora archivos .md y .txt dentro de doc/
+![Git status evidencia](images/temp.png.png)
+
+## Evidencia
+Los archivos prueba.md y prueba.txt dentro de doc/ no aparecen
+en git status, confirmando que están siendo ignorados.
+Los mismos archivos fuera de doc/ sí aparecen y son rastreados.
+
+![Git status evidencia](imagenes/evidencia.png)
 
 ## Pregunta 3 (2 puntos)
 
